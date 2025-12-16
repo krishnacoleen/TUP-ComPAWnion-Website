@@ -30,27 +30,29 @@ The site includes advanced client-side and server-side features, demonstrating f
 
 ## 📁 Site Architecture & File Structure
 
-The project utilizes a clear separation between front-end display files and back-end configuration/processing logic.
+The project follows a clear separation between **front-end display files** and **back-end configuration/processing logic**.
 
 
-
-/ # Project Root
-├── index.php # Homepage
-├── our-cats.php # Cat Gallery & Adoption Form
-├── volunteer.php # Volunteer Page with Event Calendar
-├── donate.php # Dual Donation Forms
-├── blog.php # Blog Posts & Pagination
-├── about.php # Mission, Vision, Team, Contact
-├── script.js # All Client-side Logic (Filtering, Dark Mode, Forms)
-├── style.css # Global Styles & Responsive Media Queries
-├── logo.jpg # TUP ComPAWnion Logo
-└── config/ # Backend Configuration & Processing Scripts
-│	├── database.php # MySQL PDO Connection setup and credentials
-│	├── fetch-events.php # Queries events table for calendar data (JSON output)
-│	├── process-adoption.php # Validates and saves Adoption Applications
-│	├── process-donation.php # Validates and saves Monetary/In-Kind Donations
-│	└── process-volunteer.php # Validates and saves Volunteer Applications & event sign-ups
-└── README.md
+/
+├── index.php              # Homepage
+├── our-cats.php           # Cat Gallery & Adoption Form
+├── volunteer.php          # Volunteer Page with Event Calendar
+├── donate.php             # Dual Donation Forms
+├── blog.php               # Blog Posts & Pagination
+├── about.php              # Mission, Vision, Team, Contact
+│
+├── script.js              # Client-side Logic (Filtering, Dark Mode, Forms)
+├── style.css              # Global Styles & Responsive Media Queries
+├── logo.jpg               # TUP ComPAWnion Logo
+│
+├── config/                # Backend Configuration & Processing Scripts
+│   ├── database.php       # MySQL PDO Connection Setup
+│   ├── fetch-events.php   # Fetches events data (JSON output)
+│   ├── process-adoption.php   # Handles Adoption Applications
+│   ├── process-donation.php   # Handles Monetary & In-Kind Donations
+│   └── process-volunteer.php  # Handles Volunteer Applications
+│
+└── README.md              # Project Documentation
 
 ## 🎨 Design Concept
 
@@ -69,11 +71,15 @@ The project utilizes a clear separation between front-end display files and back
 | **Llanillo, Zaila Mae** | Designer & Documentation Specialist |
 | **Vengua, Krishna Coleen** | Developer & Researcher |
 
+
 ## 🚀 Deployment
 
-* **Hosting Platform**: **InfinityFree Hosting**
-* **[GitHub Repository]([https://github.com/krishnacoleen/TUP-ComPAWnion-Website](https://github.com/krishnacoleen/TUP-ComPAWnion-Website))** *(Replace with actual link)*
-* **[Live Site Demo]([https://tupcompawnion.rf.gd/](https://tupcompawnion.rf.gd/))**
+- **Hosting Platform:** InfinityFree Hosting  
+- **GitHub Repository:**  
+  https://github.com/krishnacoleen/TUP-ComPAWnion-Website  
+- **Live Site Demo:**  
+  https://tupcompawnion.rf.gd/
+
 
 ## ⏱️ Project Timeline
 
