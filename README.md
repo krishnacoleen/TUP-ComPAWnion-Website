@@ -75,10 +75,14 @@ The project follows a clear separation between **front-end display files** and *
 ## 🚀 Deployment
 
 - **Hosting Platform:** InfinityFree Hosting  
-- **GitHub Repository:**  
-  https://github.com/krishnacoleen/TUP-ComPAWnion-Website  
+- **GitHub Repository (PHP):**  
+  https://github.com/krishnacoleen/TUP-ComPAWnion-Website
+- **GitHub Repository (Static)**
+  https://github.com/zmaaiee/TUP_ComPAWnion.git
+- **Github Pages (Static)**
+  https://zmaaiee.github.io/TUP_ComPAWnion/
 - **Live Site Demo:**  
-  https://tupcompawnion.rf.gd/
+  https://tupcompawnion.free.nf/
 
 
 ## ⏱️ Project Timeline
